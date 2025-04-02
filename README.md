@@ -19,14 +19,16 @@ Udayini is a unique online marketplace designed to empower women by facilitating
 
 ## Technology Stack
 
-* Frontend: HTML, CSS, JavaScript (React/Next.js)
+* Frontend: HTML, CSS, JavaScript (React, Mantine, tailwind css)
 
 * Backend: Node.js, Express.js
 
+* Authentication: Clerk
 
 * Blockchain Integration: Solana
 
 * Hosting: Vercel
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
