@@ -44,7 +44,15 @@ const NavigationBar = () => {
         <Group justify="space-between" gap="xs" grow className="mt-12 md:mt-0">
           {linkItems.map((item, index) => {
             return (
-              <NavLink to={item.path} key={index} className="text-center mx-12">
+              <NavLink
+                to={item.path}
+                key={index}
+                className={({ isActive }) =>
+                  isActive
+                    ? `bg-black px-6 py-2 mx-8 rounded-lg text-white font-extrabold`
+                    : `text-center px-6 py-1 mx-8 hover:border-2 rounded-md`
+                }
+              >
                 <Text>{item.label}</Text>
               </NavLink>
             );
