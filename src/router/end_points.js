@@ -1,6 +1,6 @@
 const end_points = {
   root: '/',
-  home: "/home",
+  home: "",
   explore: "/explore",
   account: "/account,"
 };

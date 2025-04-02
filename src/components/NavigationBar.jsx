@@ -6,35 +6,27 @@ import {
   UserButton,
   SignInButton,
 } from "@clerk/clerk-react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import logo from "../assets/logo.png";
-import end_points from "../router/end_points";
 import { useDisclosure } from "@mantine/hooks";
-
-const linkItems = [
-  {
-    label: "Home",
-    path: end_points.home,
-  },
-  {
-    label: "Explore",
-    path: end_points.explore,
-  },
-  {
-    label: "Account",
-    path: end_points.account,
-  },
-];
+import linkItems from "../constant/navigation_links";
+import end_points from "../router/end_points";
 
 const NavigationBar = () => {
+  const navigate = useNavigate();
   const [opened, { toggle }] = useDisclosure();
   return (
     <header className="w-full h-max shadow md:flex items-center justify-between px-4 md:px-10 py-3">
       <div className="flex w-full items-center justify-between">
         <div className="flex w-max gap-x-4">
           <Image src={logo} className="max-w-10" />
-          <Title>Udayini</Title>
+          <Title
+            className="cursor-pointer"
+            onClick={() => navigate(end_points.home)}
+          >
+            Udayini
+          </Title>
         </div>
         <Group hiddenFrom="sm">
           <Burger
