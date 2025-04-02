@@ -13,7 +13,7 @@ if (!Array.isArray(images) || images.length === 0) {
 
 const CarouselField = () => {
   return (
-    <div className="bg-amber-950">
+    <div className="min-h-max">
       <Carousel
         loop
         h={440}
@@ -24,7 +24,7 @@ const CarouselField = () => {
         {images.map((image, index) => {
           return (
             <Carousel.Slide key={index}>
-              <Image src={image.link} className="size-140" />
+              <Image src={image.link} className="size-100" />
             </Carousel.Slide>
           );
         })}
