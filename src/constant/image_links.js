@@ -1,18 +1,43 @@
 const images = [
   {
-    link: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80',
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img01.jpg',
+    title: 'Basics of agriculture',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
   },
   {
-    link: 'https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80',
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img03.jpg',
+    title: 'Content writing 101',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
   },
   {
-    link: 'https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80',
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img04.jpg',
+    title: 'digital marketingl',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
   },
   {
-    link: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80',
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img05.jpg',
+    title: 'English for begginers',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
   },
   {
-    link: 'https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80',
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img06.jpg',
+    title: 'kadai bunai course',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
+  },
+  {
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img07.jpg',
+    title: 'Online marketing',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
+  },
+  {
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img08.jpg',
+    title: 'pottery classes',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
+  },
+  {
+    link: 'https://raw.githubusercontent.com/Arhaan-Ali/Udayini/refs/heads/main/src/assets/img09.jpg',
+    title: 'sewing course',
+    content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sed consectetur est temporibus mollitia dolorum sit blanditiis similique delectus facere!'
   },
 ];
 
