@@ -2,6 +2,7 @@ import React from "react";
 import CarouselField from "../components/CarouselField";
 import { Container, Title, Text, Button, Group } from "@mantine/core";
 import ItemCard from "../components/ItemCard";
+import images from "../constant/image_links";
 
 const Home = () => {
   return (
@@ -14,11 +15,11 @@ const Home = () => {
         <Button className="my-8" size="lg">Learn a new skill</Button>
       </Container>
       <div className="w-full h-max flex flex-wrap items-center lg:justify-center">
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
+        {images.map((image) => {
+          return <ItemCard imgPath={image.link} title={image.title}
+          content={image.content}
+          />
+        })}
         <ItemCard/>
       </div>
     </section>
