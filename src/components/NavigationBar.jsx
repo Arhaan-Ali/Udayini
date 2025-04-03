@@ -37,7 +37,7 @@ const NavigationBar = () => {
       <Drawer
         opened={opened}
         onClose={close}
-        title={<Title>Udayini</Title>}
+        title={<Title className="text-xl">Udayini</Title>}
         size="sm"
         h="100%"
       >
@@ -64,7 +64,16 @@ const NavigationBar = () => {
               <SignInButton />
             </SignedOut>
             <SignedIn>
-              <UserButton showName />
+              <UserButton
+                appearance={{
+                  elements: {
+                    userButtonAvatarBox: {
+                      width: "40px",
+                      height: "40px",
+                    },
+                  },
+                }}
+              />
             </SignedIn>
           </div>
         </div>
@@ -100,7 +109,16 @@ const NavigationBar = () => {
             <SignInButton />
           </SignedOut>
           <SignedIn>
-            <UserButton />
+            <UserButton
+              appearance={{
+                elements: {
+                  userButtonAvatarBox: {
+                    width: "40px",
+                    height: "40px",
+                  },
+                },
+              }}
+            />
           </SignedIn>
         </div>
       </div>

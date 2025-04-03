@@ -20,7 +20,6 @@ const Home = () => {
           content={image.content}
           />
         })}
-        <ItemCard/>
       </div>
     </section>
   );
